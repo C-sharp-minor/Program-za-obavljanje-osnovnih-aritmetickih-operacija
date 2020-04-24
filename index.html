@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Program za obavljanje osnovnih aritmetickih operacija</title>
+</head>
+<body>
+	<script>
+		var prvaCifra = parseInt(prompt("Unesite prvu cifru: "));
+		var operacija = prompt("Unesite aritmeticku operaciju: ");
+		var drugaCifra = parseInt(prompt("Unesite drugu cifru: "));
+
+		switch (operacija) {
+		    case "+":
+		    alert(prvaCifra + drugaCifra);
+		    break;
+
+		    case "-":
+		    alert(prvaCifra - drugaCifra);
+		    break;
+
+		    case "*":
+		    alert(prvaCifra * drugaCifra);
+		    break;
+
+		    case "/":
+		    alert(prvaCifra / drugaCifra);
+		    break;
+
+		    default:
+		    alert("Doslo je do greske. Dozvoljeno je koristenje samo osnovnih aritmetickih operacija (+, -, *, /).");
+		}
+	</script>
+</body>
+</html>
